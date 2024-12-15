@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="preload"></div>
     <header id="nav">
         <img class="logo" src="logo.png" alt="Logo">
         <h1>XI TAV 2</h1>
@@ -78,7 +79,12 @@
         const atas = document.getElementById('atas');
         const isi = document.getElementById('isi');
         const nav = document.getElementById('nav');
+        const preload = document.getElementById('preload');
         // Mulai Fungsi
+
+        window.addEventListener('load', function(){
+            preload.style.opacity = 0;
+        })
 
         // button
         function pencet(){
