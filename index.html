@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maluku Island</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+
+<body>
+    <header id="nav">
+        <img class="logo" src="logo.png" alt="Logo">
+        <h1>XI TAV 2</h1>
+    </header>
+    <section id="atas">
+        <div class="atas-content">
+            <p>Selamat Datang Pengunjung</p>
+            <h1>Maluku Island</h1>
+            <p>Kepulauan Rempah dengan Keindahan Alam, Kekayaan Budaya, dan Tantangan Pembangunan Ekonomi</p>
+            <button class="blue-btn" onclick="pencet()">Jelajahi Maluku</button>
+        </div>
+    </section>
+    <main id="isi">
+        <div class="top">
+            <h1>Tentang Maluku</h1>
+        </div>
+        <div class="main-content-1">
+            <h1>Apa itu Maluku ?</h1>
+            <p>Maluku adalah surga tersembunyi di Indonesia timur. Keindahan alamnya memukau, dari pantai berpasir putih
+                hingga gunung hijau yang menjulang. Selain alamnya yang luar biasa, Maluku juga kaya akan budaya, dengan
+                rumah adat yang unik dan tradisi yang kental.</p>
+            <div class="main-contentin">
+                <h1>Rumah Baileo</h1>
+                <img class="box"
+                    src="https://o-cdn-cas.oramiland.com/parenting/images/Rumah_Baileopolarumah.com.width-800.format-webp.webp"
+                    alt="">
+                <p>Rumah Bailo merupakan rumah adat Maluku. Rumah ini terbuat dari kayu sebagai struktur utama, dengan
+                    atap dari daun rumbia atau sagu. Dindingnya terbuat dari papan kayu, dan lantainya biasanya
+                    menggunakan kayu atau bambu.</p>
+            </div>
+            <div class="main-contentin">
+                <h1>Gunung Banda</h1>
+                <img class="box" src="https://superlive.id/storage/articles/c3ac6abb-3aea-4e82-aeaa-e58897f83e12.jpg"
+                    alt="">
+                <p>Gunung Banda adalah gunung berapi aktif yang terletak di Pulau Banda Neira, Maluku. Dengan ketinggian
+                    2.339 meter, gunung ini menawarkan pemandangan luar biasa dari puncaknya, dikelilingi oleh laut biru
+                    dan pulau-pulau tropis. Aktivitas vulkaniknya menciptakan tanah subur yang mendukung kehidupan
+                    lokal.</p>
+            </div>
+            <div class="main-contentin">
+                <h1>Laut Banda</h1>
+                <img class="box" src="https://yachtsourcing.com/wp-content/uploads/surface-in-Banda-island-scaled.jpg"
+                    alt="">
+                <p>Laut Banda adalah perairan indah yang terletak di sekitar Kepulauan Banda, Maluku, Indonesia. Laut
+                    ini terkenal dengan airnya yang jernih, terumbu karang yang kaya, dan kehidupan laut yang beragam,
+                    menjadikannya salah satu destinasi diving terbaik di dunia. Di sini, para penyelam bisa menemukan
+                    berbagai spesies ikan tropis, penyu, hingga hiu.</p>
+            </div>
+            <div class="main-contentin end">
+                <h1>Video keindahan Pulau Maluku</h1>
+                <iframe class="yt" src="https://www.youtube.com/embed/Ocp6eXDHhNw?si=3ts6u9ACzIs2FEBK"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>Tentang Kami</h1>
+        <p>Nawasena Team & XI TAV 2 Family</p>
+        <p>Nawasena © Copyright 2024-2026. All Right Reversed</p>
+    </footer>
+
+    <script>
+        // DOM variabel
+        const atas = document.getElementById('atas');
+        const isi = document.getElementById('isi');
+        const nav = document.getElementById('nav');
+        // Mulai Fungsi
+
+        // button
+        function pencet(){
+            atas.style.opacity = 0;
+            function bokep(){
+                atas.style.display = "none";
+            }
+            setTimeout(bokep, 500);
+            isi.style.display = "block";
+        }
+
+        // Scroll
+        window.addEventListener('scroll', function(event){
+            if (window.scrollY > 1) {
+                nav.classList.add('scroll');
+            } else {
+                nav.classList.remove('scroll');
+            }
+        });
+
+    </script>
+</body>
+
+</html>
