@@ -2,6 +2,7 @@
 
 Welcome to **Maluku-Island**!  
 A website dedicated to Maluku Island.
+Phone only
 
 ## 📝 About
 This project aims to showcase information, culture, and beauty of Maluku Island through a web platform.  
@@ -12,7 +13,7 @@ Developed by [RendyPakeY](https://github.com/RendyPakeY).
 
 ## 🌐 Project Links
 - [Repository on GitHub](https://github.com/RendyPakeY/Maluku-Island)
-- [Repository on GitHub](https://RendyPakeY.github.io/Maluku-Island)
+- [Demo](https://RendyPakeY.github.io/Maluku-Island)
 
 ## 🚀 Features
 - Informative website about Maluku Island
